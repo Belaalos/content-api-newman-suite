@@ -1,0 +1,14 @@
+{
+  "name": "jsonplaceholder-api-tests",
+  "version": "1.0.0",
+  "description": "Postman collection with automated API tests, run from the command line with Newman and in CI with GitHub Actions",
+  "scripts": {
+    "test": "newman run collections/JSONPlaceholder_API_Tests.postman_collection.json -e environments/jsonplaceholder.postman_environment.json -r cli,htmlextra --reporter-htmlextra-export reports/report.html"
+  },
+  "keywords": ["postman", "newman", "api-testing", "qa", "test-automation"],
+  "license": "MIT",
+  "devDependencies": {
+    "newman": "^6.2.1",
+    "newman-reporter-htmlextra": "^1.23.1"
+  }
+}
