@@ -2,8 +2,7 @@
 
 Automated REST API test suite for the public practice API [jsonplaceholder.typicode.com](https://jsonplaceholder.typicode.com). The tests live in a **Postman collection**, run from the command line with **Newman**, and execute automatically on every push through **GitHub Actions**.
 
-<!-- After your first run, add a screenshot of reports/report.html to docs/report.png and uncomment the next line -->
-<!-- ![Newman report](docs/report.png) -->
+![Newman report](docs/report.png)
 
 ## What it covers
 
