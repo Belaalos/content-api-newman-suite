@@ -36,8 +36,8 @@ Automated REST API test suite for the public practice API [jsonplaceholder.typic
 **Option A: command line (Newman)**
 
 ```bash
-git clone https://github.com/Belaalos/jsonplaceholder-api-tests.git
-cd jsonplaceholder-api-tests
+git clone https://github.com/Belaalos/content-api-newman-suite.git
+cd content-api-newman-suite
 npm install
 npm test
 ```

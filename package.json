@@ -1,5 +1,5 @@
 {
-  "name": "jsonplaceholder-api-tests",
+  "name": "content-api-newman-suite",
   "version": "1.0.0",
   "description": "Postman collection with automated API tests, run from the command line with Newman and in CI with GitHub Actions",
   "scripts": {
